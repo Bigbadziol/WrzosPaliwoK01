@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="16dp">
+    <TextView
+            android:id="@+id/tvHistNaglowek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HISTORIA ZAPISOW"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textColor="@color/dark_gray"
+        />
+    <TextView
+            android:id="@+id/tvHistDane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="HISTORIA ZAPISOW"
+            android:textSize="22sp"
+            android:textColor="@color/dark_gray"
+            tools:text="2021-21-10 12:00:00 - 456L \n2021-21-10 12:00:00 - 456L \n2021-21-10 12:00:00 - 456L \n"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <Button
+                android:id="@+id/btnHistZamknij"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="22sp"
+                android:layout_gravity="bottom"
+                android:text="ZAMKNIJ" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- ********************************************************** -->
+        <!-- przyciski do odpalania testow -->
+        <!--
+        <Button
+                android:id="@+id/btnTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEST"
+        />
+        -->
+        <!-- ********************************************************** -->
+        <!-- etykieta zbiornik dol -->
+        <TextView
+            android:id="@+id/tvNaglowekDol"
+            style="@style/zbiornikNaglowek"
+            android:text="@string/tvDol"/>
+
+        <!-- lista zbiornikow dol -->
+        <LinearLayout   android:id="@+id/llListaDol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Zbiornik dol 1-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikDol1"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_1"/>
+                <EditText
+                    android:id="@+id/etZbiornikDol1"
+                    style="@style/zbiornikWartosc"
+                    tools:text="666.66"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- zbiornik dol 2 -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikDol2"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_2"/>
+                <EditText
+                    android:id="@+id/etZbiornikDol2"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- Zbiornik dol 3-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikDol3"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_3"/>
+                <EditText
+                    android:id="@+id/etZbiornikDol3"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- zbiornik dol 4 -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikDol4"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_4"/>
+                <EditText
+                    android:id="@+id/etZbiornikDol4"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- Zbiornik dol 5-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikDol5"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_5"/>
+
+                <EditText
+                    android:id="@+id/etZbiornikDol5"
+                    style="@style/zbiornikWartosc"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no"/>
+            </LinearLayout>
+            <!-- Zbiornik dol 6-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikDol6"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_6"/>
+
+                <EditText
+                    android:id="@+id/etZbiornikDol6"
+                    style="@style/zbiornikWartosc"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- ********************************************************** -->
+        <!-- etykieta zbiornik Gora -->
+        <TextView
+            android:id="@+id/tvNaglowekGora"
+            style="@style/zbiornikNaglowek"
+            android:text="@string/tvGora"/>
+        <!-- lista zbiornikow gora -->
+        <LinearLayout   android:id="@+id/llListaGora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Zbiornik gora 1-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora1"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_1"/>
+                <EditText
+                    android:id="@+id/etZbiornikGora1"
+                    style="@style/zbiornikWartosc"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no"/>
+            </LinearLayout>
+            <!-- zbiornik gora 2 -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora2"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_2"/>
+                <EditText
+                    android:id="@+id/etZbiornikGora2"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- Zbiornik gora 3-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora3"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_3"/>
+                <EditText
+                    android:id="@+id/etZbiornikGora3"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- zbiornik gora 4 -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora4"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_4"/>
+                <EditText
+                    android:id="@+id/etZbiornikGora4"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- Zbiornik gora 5-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora5"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_5"/>
+
+                <EditText
+                    android:id="@+id/etZbiornikGora5"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+            <!-- Zbiornik gora 6-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora6"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_6"/>
+
+                <EditText
+                    android:id="@+id/etZbiornikGora6"
+                    style="@style/zbiornikWartosc"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no"/>
+            </LinearLayout>
+            <!-- Zbiornik gora 7-->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvZbiornikGora7"
+                    style="@style/zbiornikOpis"
+                    android:text="@string/tvZbiornik_7"/>
+
+                <EditText
+                    android:id="@+id/etZbiornikGora7"
+                    style="@style/zbiornikWartosc"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- ********************************************************** -->
+        <!-- etykieta zbiornik Kotlowna -->
+        <TextView
+            android:id="@+id/tvNaglowekKotlownia"
+            style="@style/zbiornikNaglowek"
+            android:text="@string/tvKotlownia"/>
+        <!-- Zbiornik kotlownia 1-->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvZbiornikKotlownia1"
+                style="@style/zbiornikOpis"
+                android:text="@string/tvZbiornik_1"/>
+
+            <EditText
+                android:id="@+id/etZbiornikKotlownia1"
+                style="@style/zbiornikWartosc"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

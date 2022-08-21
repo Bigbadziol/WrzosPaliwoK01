@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wrzos Paliwo</string>
+    <string name="tvDol">Dol</string>
+    <string name="tvGora">Gora</string>
+    <string name="tvKotlownia">Kotlownia</string>
+    <string name="tvZbiornik_1">Zbiornik 1:</string>
+    <string name="tvZbiornik_2">Zbiornik 2:</string>
+    <string name="tvZbiornik_3">Zbiornik 3:</string>
+    <string name="tvZbiornik_4">Zbiornik 4:</string>
+    <string name="tvZbiornik_5">Zbiornik 5:</string>
+    <string name="tvZbiornik_6">Zbiornik 6:</string>
+    <string name="tvZbiornik_7">Zbiornik 7:</string>
+    <string name="menu_action_save">Zapisz</string>
+    <string name="menu_action_sms">Wyslij SMS</string>
+    <string name="menu_action_logs">Historia</string>
+    <string name="menu_action_clear">Wyczysc pola</string>
+    <string name="btnZamknij">Zamknij</string>
+</resources>
